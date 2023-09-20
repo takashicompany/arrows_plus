@@ -156,7 +156,7 @@ XIAO RP2040のハンダ付けと、ファームウェアの書き込みが成功
 
 #### b. スイッチプレートを用いる場合
 
-スイッチプレートの枠にキースイッチをはめ込みます。
+スイッチプレートの枠にキースイッチをはめ込みます。  
 <img src = "https://github.com/takashicompany/arrows_plus/blob/master/images/build/IMG_5566.jpg?raw=true" width = "600px" />
 
 ---
