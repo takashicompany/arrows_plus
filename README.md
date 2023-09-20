@@ -117,7 +117,7 @@ XIAO RP2040のUSB口とは反対側にある「B」と書かれたスイッチ�
 解凍後、フォルダ内の`boot.py`と`kmkフォルダ`をCIRCUITPYにドラッグアンドドロップ or コピーペーストします。  
 <img src = "https://github.com/takashicompany/monokey/assets/4215759/7f36a17a-5073-4edc-b0dd-3008e8e5ef75" width = "600px" />
 
-[こちら](https://github.com/takashicompany/monokey/blob/master/firmware/kmk/code.py)からKMK Firmware用のソースコード`code.py`をダウンロードして、CIRCUITPYにドラッグアンドドロップ　or コピーペーストをします。  
+[こちら](https://github.com/takashicompany/arrows_plus/blob/master/firmware/kmk/rev1/code.py)からKMK Firmware用のソースコード`code.py`をダウンロードして、CIRCUITPYにドラッグアンドドロップ　or コピーペーストをします。  
 <img src = "https://github.com/takashicompany/monokey/assets/4215759/0bfe6c1c-1bc5-4667-b853-cea94f43abf7" width = "600px" />
 
 XIAO RP2040のハンダ付けと、ファームウェアの書き込みが成功しているかを確かめるために、ピンセットなどでキースイッチ穴同士を導通させます。  
