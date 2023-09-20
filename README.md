@@ -21,6 +21,15 @@
 
 ### ロータリーエンコーダを取り付ける場合
 
+基板のバージョンによっては、ロータリーエンコーダを取り付けることが可能です。
+
+基板右奥側のキースイッチ取付箇所にロータリーエンコーダの用の穴が追加されていると取付が可能です。  
+他のキースイッチ取付箇所より穴が多めに空いていることを確認してください。  
+<img src = "https://github.com/takashicompany/arrows_plus/blob/master/images/build/IMG_5530_b.jpg?raw=true" width = "600px" />
+
+対応してないバージョンは以下になります。  
+<img src = "https://github.com/takashicompany/arrows_plus/blob/master/images/build/IMG_6122.jpg?raw=true" width = "600px" />
+
 |部品|個数|備考|
 |:--|:--|:--|
 |[ロータリーエンコーダ](https://shop.yushakobo.jp/products/3762)|1|基板のバージョンによっては取り付け不可能。|
