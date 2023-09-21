@@ -1,4 +1,4 @@
-# Arrows Plus
+# Arrows+
 
 ## 基板のバージョンの確認
 
@@ -17,7 +17,7 @@
 
 |部品|個数|備考|
 |:--|:--|:--|
-|Arrows Plus基板|1||
+|Arrows+ 基板|1||
 |[XIAO RP2040](https://talpkeyboard.net/items/63534f58f5197322fceb6487)|1||
 |キースイッチ|5|Cherry MX互換スイッチ。|
 |キーキャップ|5|Cherry MX互換スイッチ対応のキーキャップ。全て1u。|
@@ -26,7 +26,7 @@
 ### スイッチプレートを取り付ける場合
 |部品|個数|備考|
 |:--|:--|:--|
-|Arrows Plus基板|1|もう1枚用意してスイッチプレートとして利用する。|
+|Arrows+ 基板|1|もう1枚用意してスイッチプレートとして利用する。|
 |[M2 スペーサー 3.5mm](https://shop.yushakobo.jp/products/a0800c2?variant=43940969316583)|5||
 |[M2 ネジ 3mm](https://shop.yushakobo.jp/products/a0800n2)|10||
 
@@ -92,7 +92,7 @@
 ### 3. MCU(XIAO RP2040)の取り付け
 
 MCU(Micro Controller Unit)とは、キーボードの頭脳部分です。  
-Arrows PlusはXIAO RP2040を用います。  
+Arrows+はXIAO RP2040を用います。  
 <img src = "https://github.com/takashicompany/arrows_plus/blob/master/images/build/IMG_5541.jpg?raw=true" width = "600px" />
 
 基板にXIAO RP2040を配置します。  
