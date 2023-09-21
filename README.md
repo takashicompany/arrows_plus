@@ -27,7 +27,8 @@
 
 Arrows PLUSは基板をもう1枚用意し、加工することでスイッチプレート付きのキーボードとして組み立てることができます。  
 以下の写真の左側が基板1枚で組んだもの、右側が基板2枚を用いてスイッチプレートを取り付けたものです。  
-<img src = "https://github.com/takashicompany/arrows_plus/blob/master/images/build/IMG_6128.jpg?raw=true" width = "600px" />
+<img src = "https://github.com/takashicompany/arrows_plus/blob/master/images/build/IMG_6128.jpg?raw=true" width = "400px" />  
+<img src = "https://github.com/takashicompany/arrows_plus/blob/master/images/build/IMG_6131.jpg?raw=true" width = "400px" />
 
 全体的な使用感に大きな違いはありませんが、キースイッチプレートを取り付けることでキースイッチがより固定され安定がさらに増します。
 
