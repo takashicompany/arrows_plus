@@ -1,4 +1,4 @@
-# Arrows+
+# Arrows PLUS
 
 ## 基板のバージョンの確認
 
@@ -9,7 +9,7 @@
 |基板の記載|基板のバージョン|ロータリーエンコーダの搭載|
 |:--|:--|:--|
 |Arrows+ のみ|Rev1|可能|
-|Arrows+ (Rev2)|Rev2|不可|
+|Arrows+(Rev2)|Rev2|不可|
 
 ## 組み立てに必要な部品
 
@@ -17,16 +17,23 @@
 
 |部品|個数|備考|
 |:--|:--|:--|
-|Arrows+ 基板|1||
-|[XIAO RP2040](https://talpkeyboard.net/items/63534f58f5197322fceb6487)|1||
+|Arrows PLUS 基板|1||
+|[XIAO RP2040](https://talpkeyboard.net/items/63534f58f5197322fceb6487)|1|[電子部品の取扱店](https://www.switch-science.com/products/7634)などでも購入可能です。|
 |キースイッチ|5|Cherry MX互換スイッチ。|
 |キーキャップ|5|Cherry MX互換スイッチ対応のキーキャップ。全て1u。|
 |[ゴム足シール](https://shop.yushakobo.jp/products/a0800ur-01-6)|4||
 
 ### スイッチプレートを取り付ける場合
+
+Arrows PLUSは基板をもう1枚用意し、加工することでスイッチプレート付きのキーボードとして組み立てることができます。  
+以下の写真の左側が基板1枚で組んだもの、右側が基板2枚を用いてスイッチプレートを取り付けたものです。  
+<img src = "https://github.com/takashicompany/arrows_plus/blob/master/images/build/IMG_6128.jpg?raw=true" width = "600px" />
+
+全体的な使用感に大きな違いはありませんが、キースイッチプレートを取り付けることでキースイッチがより固定され安定がさらに増します。
+
 |部品|個数|備考|
 |:--|:--|:--|
-|Arrows+ 基板|1|もう1枚用意してスイッチプレートとして利用する。|
+|Arrows PLUS 基板|1|もう1枚用意してスイッチプレートとして利用する。|
 |[M2 スペーサー 3.5mm](https://shop.yushakobo.jp/products/a0800c2?variant=43940969316583)|5||
 |[M2 ネジ 3mm](https://shop.yushakobo.jp/products/a0800n2)|10||
 
@@ -92,7 +99,7 @@
 ### 3. MCU(XIAO RP2040)の取り付け
 
 MCU(Micro Controller Unit)とは、キーボードの頭脳部分です。  
-Arrows+はXIAO RP2040を用います。  
+Arrows PLUSはXIAO RP2040を用います。  
 <img src = "https://github.com/takashicompany/arrows_plus/blob/master/images/build/IMG_5541.jpg?raw=true" width = "600px" />
 
 基板にXIAO RP2040を配置します。  
@@ -129,7 +136,13 @@ XIAO RP2040のUSB口とは反対側にある「B」と書かれたスイッチ�
 解凍後、フォルダ内の`boot.py`と`kmkフォルダ`をCIRCUITPYにドラッグアンドドロップ or コピーペーストします。  
 <img src = "https://github.com/takashicompany/monokey/assets/4215759/7f36a17a-5073-4edc-b0dd-3008e8e5ef75" width = "600px" />
 
-[こちら](https://github.com/takashicompany/arrows_plus/blob/master/firmware/kmk/rev1/code.py)からKMK Firmware用のソースコード`code.py`をダウンロードして、CIRCUITPYにドラッグアンドドロップ　or コピーペーストをします。  
+code.pyにキーマップ等を書き込みます。
+基板のバージョンに応じて、用いるcode.pyは以下になります。
+
+- [Rev1](https://github.com/takashicompany/arrows_plus/blob/master/firmware/kmk/rev1/code.py)
+- [Rev2](https://github.com/takashicompany/arrows_plus/blob/master/firmware/kmk/rev2/code.py)
+
+上述のKMK Firmware用のソースコード`code.py`をダウンロード、またはコピーしてCIRCUITPYにドラッグアンドドロップ　or ペーストをします。  
 <img src = "https://github.com/takashicompany/monokey/assets/4215759/0bfe6c1c-1bc5-4667-b853-cea94f43abf7" width = "600px" />
 
 XIAO RP2040のハンダ付けと、ファームウェアの書き込みが成功しているかを確かめるために、ピンセットなどでキースイッチ穴同士を導通させます。  
