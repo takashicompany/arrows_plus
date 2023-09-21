@@ -18,7 +18,7 @@
 |部品|個数|備考|
 |:--|:--|:--|
 |Arrows+ 基板|1||
-|[XIAO RP2040](https://talpkeyboard.net/items/63534f58f5197322fceb6487)|1||
+|[XIAO RP2040](https://talpkeyboard.net/items/63534f58f5197322fceb6487)|1|[電子部品の取扱店](https://www.switch-science.com/products/7634)などでも購入可能です。|
 |キースイッチ|5|Cherry MX互換スイッチ。|
 |キーキャップ|5|Cherry MX互換スイッチ対応のキーキャップ。全て1u。|
 |[ゴム足シール](https://shop.yushakobo.jp/products/a0800ur-01-6)|4||
