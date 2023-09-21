@@ -1,5 +1,16 @@
 # Arrows Plus
 
+## 基板のバージョンの確認
+
+基板のバージョンによって、機能や用いるファームウェアに小さい差異がございます。  
+基板のバージョンは以下の緑枠部分で判別が可能です。  
+<img src = "https://github.com/takashicompany/arrows_plus/blob/master/images/build/IMG_6123_b.jpg?raw=true" width = "600px" />
+
+|基板の記載|基板のバージョン|ロータリーエンコーダの搭載|
+|:--|:--|:--|
+|Arrows+ のみ|Rev1|可能|
+|Arrows+ (Rev2)|Rev2|不可|
+
 ## 組み立てに必要な部品
 
 ### 基本
