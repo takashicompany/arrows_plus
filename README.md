@@ -10,6 +10,7 @@
 |:--|:--|:--|
 |Arrows+ のみ|Rev1|可能|
 |Arrows+(Rev2)|Rev2|不可|
+|Arrows+(Rev3)|Rev3|不可|
 
 ## 組み立てに必要な部品
 
