@@ -37,7 +37,7 @@ Arrows PLUSは基板をもう1枚用意し、加工することでスイッチ�
 |:--|:--|:--|
 |Arrows PLUS 基板|1|もう1枚用意してスイッチプレートとして利用する。|
 |[M2 スペーサー 3.5mm](https://shop.yushakobo.jp/products/a0800c2?variant=43940969316583)|5||
-|[M2 ネジ 3mm](https://shop.yushakobo.jp/products/a0800n2)|10||
+|[M2 ネジ 3mm](https://shop.yushakobo.jp/products/a0800n2)|10|頭が大きいネジですとキースイッチと干渉する可能性があります。|
 
 ### ロータリーエンコーダを取り付ける場合
 
